@@ -7,21 +7,24 @@
     <title>Document</title>
 </head>
 <body>
-    <ex>Ex 16</ex>
-    <script>
-        var horas t = 0;
-        var vlr_sal_min = 0;
-        var vlr_hora_t = 0;
-        var vlr_sal_bru = 0;
-        var imp = 0;
-        var vlr_sal_liq = 0;
-         horas_t = 4;
-         vlr_sal_min = 1500;
-         vlr_hora_t = vlr_sal_min/2
-         vlr_sal_bru = vlr_hora_t * horas_t;
-         imp * vlr_sal_bru * 3/100;
-         vlr_sal_liq = vlr_sal_bru * imp
-         alert(vlr_sal_liq);
-    </script>
+        <h1>parceiro J.V</h1>
+
+            <script>
+
+        var horas_t = parseFloat(prompt("Informe a hora trabalhada: "));
+        var vlr_sal_min = parseFloat(prompt("Informe o valor do salário mínimo: "));
+
+        var vlr_hora_t = vlr_sal_min / 2;
+        var vlr_sal_bru = vlr_hora_t * horas_t;
+        var imp = vlr_sal_bru * 3 / 100;
+        var vlr_sal_liq = vlr_sal_bru - imp;
+
+        console.log("O valor das horas trabalhadas é: ", vlr_hora_t.toFixed(2));
+        console.log("O valor do salário bruto é: ", vlr_sal_bru.toFixed(2));
+        console.log("O imposto é: ", imp.toFixed(2));
+        console.log("O valor salário líquido é: ", vlr_sal_liq.toFixed(2));
+
+             </script>
+
 </body>
-</html>
+</html
